@@ -1,0 +1,81 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M562 757c0 27.614-22.386 50-50 50s-50-22.386-50-50c0-27.614 22.386-50 50-50s50 22.386 50 50z",
+          "M512 0c-282.968 0-512 228.994-512 512 0 282.968 228.994 512 512 512 282.968 0 512-228.994 512-512 0-282.968-228.994-512-512-512zM512 944c-238.754 0-432-193.214-432-432 0-238.754 193.214-432 432-432 238.754 0 432 193.214 432 432 0 238.754-193.214 432-432 432z",
+          "M512 257c-88.224 0-160 71.776-160 160 0 22.092 17.908 40 40 40s40-17.908 40-40c0-44.112 35.888-80 80-80s80 35.888 80 80c0 44.112-35.888 80-80 80-22.092 0-40 17.908-40 40v100c0 22.092 17.908 40 40 40s40-17.908 40-40v-65.062c68.932-17.806 120-80.52 120-154.938 0-88.224-71.776-160-160-160z"
+        ],
+        "attrs": [
+          {},
+          {},
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "information"
+        ]
+      },
+      "attrs": [
+        {},
+        {},
+        {}
+      ],
+      "properties": {
+        "order": 64,
+        "id": 0,
+        "name": "information",
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 0,
+      "setId": 0,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "resetPoint": 59648,
+      "showSelector": false,
+      "showMetrics": false,
+      "showMetadata": false,
+      "cssVars": true,
+      "cssVarsFormat": "scss"
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

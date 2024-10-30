@@ -1,0 +1,159 @@
+/* ---
+  Notice
+--- */
+
+  .notice[data-notice=buybox-widget] {
+    padding-left: 20px;
+    padding-bottom: 8px;
+  }
+
+  .notice[data-notice=buybox-widget] p {
+    margin: 1em 0;
+    overflow: hidden;
+  }
+
+  .notice[data-notice=buybox-widget] .button {
+    float: left;
+    margin-right: 14px;
+  }
+
+/* ---
+  Admin page
+--- */
+
+  .bbwOptionPage {
+    margin: 0 20px 20px 0;
+  }
+
+  .bbwOptionPage .wp-heading-inline {
+    margin: 20px 0;
+    padding: 12px 0 15px 0;
+  }
+
+  .bbwOptionPage__columns {
+    margin: 0 -10px;
+  }
+
+  .bbwOptionPage__columns:before,
+  .bbwOptionPage__columns:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .bbwOptionPage__column {
+    float: left;
+    margin: 0 10px;
+  }
+
+  .bbwOptionPage__column:first-child {
+    width: calc(100% - 440px);
+  }
+
+  .bbwOptionPage__column:last-child {
+    width: 400px;
+  }
+
+  .bbwOptionPage__column table + table,
+  .bbwOptionPage__column input[type=submit] {
+    margin-top: 20px;
+  }
+
+  .bbwOptionPage__column table thead th {
+    font-weight: bold;
+  }
+
+  .bbwOptionPage__column table thead th i {
+    font-weight: normal;
+  }
+
+  .bbwOptionPage__column table td:first-child {
+    width: 25%;
+  }
+
+  .bbwOptionPage__column table td:last-child {
+    width: 75%;
+  }
+
+  .bbwOptionPage__column table input {
+    width: 400px;
+    max-width: 100%;
+  }
+
+  .bbwOptionPage__column table td p {
+    margin: 0;
+  }
+
+  .bbwOptionPage__column table td p span {
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+
+  .bbwOptionPage__column table td p span:first-child {
+    margin-left: 0;
+  }
+
+  .bbwOptionPage__column table td ul {
+    margin: 0;
+    padding-left: 30px;
+    list-style-type: circle;
+  }
+
+  .bbwOptionPage__column table td p + p {
+    margin-top: 20px;
+  }
+
+  .bbwOptionPage__button {
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 1280px) {
+
+    .bbwOptionPage__column table td {
+      width: 50% !important;
+    }
+
+    .bbwOptionPage__column:first-child,
+    .bbwOptionPage__column:last-child {
+      width: calc(100% - 20px);
+    }
+
+    .bbwOptionPage__column:last-child {
+      margin-top: 40px;
+    }
+  }
+
+/* ---
+  Editor
+--- */
+
+  .mce-bbw-popover[disabled=disabled] {
+    pointer-events: none;
+  }
+
+  @font-face {
+    font-family: 'buybox-icomoon';
+    src: url('../../icons/icomoon.eot?i5m7k5');
+    src:
+      url('../../icons/icomoon.eot?i5m7k5#iefix') format('embedded-opentype'),
+      url('../../icons/icomoon.ttf?i5m7k5') format('truetype'),
+      url('../../icons/icomoon.woff?i5m7k5') format('woff'),
+      url('../../icons/icomoon.svg?i5m7k5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .mce-abs-layout-item.mce-bbw-info {
+    margin-top: 5px;
+  }
+
+  .mce-bbw-help p:before {
+    content: '\e900';
+    float: left;
+    margin: 3px 5px 0 0;
+    font-family: 'buybox-icomoon' !important;
+    font-weight: bold;
+    color: #00aeef;
+  }

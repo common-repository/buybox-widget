@@ -1,0 +1,19 @@
+.wp-block[data-type="simply4net/buybox-widget"] iframe {
+  width: 100%;
+  height: 0px;
+  border: 0;
+}
+
+.wp-block[data-type="simply4net/buybox-widget"] .notice {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.wp-block[data-type="simply4net/buybox-widget"] .notice span {
+  display: block;
+}
+
+.wp-block[data-type="simply4net/buybox-widget"] .notice + .notice {
+  margin-top: 20px;
+}

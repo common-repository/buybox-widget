@@ -1,0 +1,19 @@
+{
+  "name": "buybox-widget",
+  "description": "Widget BUY.BOX",
+  "authors": [
+    {
+      "name": "Simply4net",
+      "homepage": "https://getbuybox.com/"
+    },
+    {
+      "name": "Mateusz Gbiorczyk",
+      "homepage": "https://gbiorczyk.pl/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BuyBoxWidget\\": "functions"
+    }
+  }
+}
